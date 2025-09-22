@@ -2,12 +2,13 @@
 @import "tailwindcss";
 
 /* Custom Design tokens (CSS Variables). We'll use them for colors. */
-:root {
-  --ink: #1b2a41;      /* navy */
-  --muted: #64748b;    /* slate */
-  --border: #e5e7eb;   /* light gray */
-  --accent: #c5ad94;   /* bronze */
-  --accent-hover: #a88970;
+:root{
+  --ink:#1b2a41;
+  --muted:#64748b;
+  --border:#e5e7eb;
+  --accent:#c5ad94;
+  --accent-hover:#a88970;
 }
+
 
 

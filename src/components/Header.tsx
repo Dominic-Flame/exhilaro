@@ -14,9 +14,9 @@ export default function Header() {
         {/* BRAND: compact logo + wordmark */}
         <Link href="/" className="flex items-center gap-2">
           {/* TIP: put your logo at /public/exhilaro.png or exhilaro.svg */}
-          <div className="h-10 w-10 relative overflow-hidden rounded">
+          <div className="h-10 w-10 relative">
             <Image
-              src="/exhilaro.png"   // or /exhilaro.svg
+              src="/exhilaro.svg"   // or /exhilaro.svg
               alt="Exhilaro"
               fill
               sizes="32px"
@@ -61,7 +61,8 @@ export default function Header() {
           {/* WHOLESALE BUTTON — consistent height & padding */}
           <Link
             href="/wholesale"
-            className="inline-flex h-9 items-center rounded-lg bg-[color:var(--accent)] px-4 text-sm font-medium text-white hover:bg-[color:var(--accent-hover)] transition"
+            className="inline-flex h-9 items-center rounded-lg bg-[color:var(--accent)] px-4 text-sm font-medium text-white 
+            hover:bg-[color:var(--accent-hover)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring-[color:var(--accent)] transition"
           >
             Login
           </Link>
