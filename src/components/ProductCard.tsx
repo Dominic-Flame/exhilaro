@@ -7,8 +7,7 @@ export default function ProductCard({ p }: { p: Product }) {
   // guard against accidental undefined
   if (!p) return null;
 
-  const discounted = !!p.compareAt && p.compareAt > p.price;
-
+const discounted = typeof p.compareAt === "number" && p.compareAt > p.price;
   return (
     <article className="group rounded-xl border border-[color:var(--border)] bg-white shadow-sm hover:shadow-md overflow-hidden transition">
       {/* image */}
