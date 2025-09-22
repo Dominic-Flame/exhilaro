@@ -1,0 +1,13 @@
+/* Tailwind v4 way: one import turns on base/components/utilities */
+@import "tailwindcss";
+
+/* Custom Design tokens (CSS Variables). We'll use them for colors. */
+:root {
+  --ink: #1b2a41;      /* navy */
+  --muted: #64748b;    /* slate */
+  --border: #e5e7eb;   /* light gray */
+  --accent: #c5ad94;   /* bronze */
+  --accent-hover: #a88970;
+}
+
+
